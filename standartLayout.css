@@ -1,0 +1,29 @@
+body {
+	background-color: rgb(150,150,150);
+}
+
+header, #menu{
+	width: 100%;
+	height: auto;
+	background-color: rgb(100,100,100);
+	text-align: center;
+	color: rgb(170,170,170);
+}
+
+#menuTitle{
+	float: left;
+	height: 100%;
+	width: auto;
+	min-width: 200px;
+	background-color: yellow;
+}
+
+#menuNavigation{
+	float: right;
+	height: 100%;
+	min-height: 100%;
+	width: auto;
+	background-color: rgb(20,20,20);
+	padding: 10px;
+	font-size: 20px;
+}
