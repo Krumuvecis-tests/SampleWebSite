@@ -1,6 +1,6 @@
 <?php
-	include "pageGenerator.php";
-	new pageGenerator\PageStart("Lapa2", "lapa2Layout.css");
+	include "../../pageGenerator/pageGenerator.php";
+	pageGenerator\startPage("Lapa2", "lapa2", "../index.php", "layout_lapa2.css");
 ?>
 
 <!-- šis menu jāpārnes uz pageGenerator -->
@@ -16,7 +16,11 @@
 	</article>
 	
 	<article id="menuNavigation">
-		<a href="lapa2.php">Otrā lapa</a>
+		<a href="../lapa2/lapa2.php">Otrā lapa</a>
+	</article>
+	
+	<article id="menuNavigation">
+		<a href="../lapa3/lapa3.php">Trešā lapa</a>
 	</article>
 	
 	<header style="text-align: center; height: 100%; width: 100%;">
